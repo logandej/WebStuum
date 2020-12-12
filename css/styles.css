@@ -26,39 +26,82 @@ nav > div {
 nav a {
     width: 80%;
     text-align: center;
-    
-  
-    font-size: 2vw;
+    font-family:arial;
+      font-size: 2vw;
     margin-left: 3vw;
     margin-right: 3vw;
     color:black;
 }
 h1
-{margin-right:200px;}
-img{
+{margin-right:200px;
+font-family:arial;}
+h2
+{text-align:center;
+font-family:arial;
+border:3px solid black;	
+padding: 10px;
+width:200px;
+margin-left:auto;
+margin-right:auto;
+
+
+}
+
+main>fieldset>img{
 	width:30%;
-	margin-right:10px;
+	margin-right:5px;
+	margin-left:5px;
+}
+main>article>ul>fieldset>img{
+	width:100%;
+	
 }
 img:hover{
 	transform: scale(2);
 }
-fieldset{
-	max-width:40%;
+ main>fieldset{
+	max-width:41%;
 	display:inline;
-	margin-right:30px;
-	margin-left:30px;
+	margin-left:50px;
+	margin-right:50px;
 	margin-top:50px;
 	margin-bottom:50px;
 	
 	
+	
+	
+	
 }
 main{
-	margin-left:100px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+article{
+	display:flex;
+	flex-direction:center;
+}
+ul{
+	display:flex;
+	flex-direction:row;}
+
+main>article>ul>fieldset{
+
+	
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	width:15%;
+	
+	
 }
 .prix{
 	text-align:bottom;
 	text-align:center;
 }
+
 footer{
 	background-color:black;
 	color:white;
