@@ -105,7 +105,12 @@ main>article>ul>fieldset{
 footer{
 	background-color:black;
 	color:white;
-	height:100px;
+	height:auto;
 	text-align:center;
 	
+}
+.insta{
+	width:2%;
+	float:right;
+	margin-bottom:10px;
 }
